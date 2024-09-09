@@ -884,40 +884,16 @@
   "schemaVersion": 39,
   "tags": [],
   "templating": {
-    "list": [
-      {
-        "current": {
-          "selected": false,
-          "text": "",
-          "value": ""
-        },
-        "definition": "label_values(nodename)",
-        "hide": 0,
-        "includeAll": false,
-        "multi": false,
-        "name": "query0",
-        "options": [],
-        "query": {
-          "qryType": 1,
-          "query": "label_values(nodename)",
-          "refId": "PrometheusVariableQueryEditor-VariableQuery"
-        },
-        "refresh": 1,
-        "regex": "",
-        "skipUrlSync": false,
-        "sort": 0,
-        "type": "query"
-      }
-    ]
+    "list": []
   },
   "time": {
-    "from": "2024-09-09T02:46:01.015Z",
-    "to": "2024-09-09T02:50:48.222Z"
+    "from": "now-6h",
+    "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Dashboard for smartctl_exporter",
   "uid": "f8f249a0-be78-41b1-97fe-8d0a92a71b93",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
